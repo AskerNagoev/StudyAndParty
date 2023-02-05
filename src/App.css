@@ -1,38 +1,171 @@
-.App {
+.app-wrapper {
+  margin: 0;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  min-height: 8vh;
+  background-color: black;
+  color: white;
+  font-size: 1.1em;
+  font-family: "Montserrat SemiBold", "Times New Roman";
+
+  display: flex;
+}
+
+.head-nav {
+  flex: 8;
+  text-align: left;
+  padding-left: 3%;
+  margin-top: auto;
+  margin-bottom: auto;
+
+  display: flex;
+  gap: 1em;
+}
+
+.head-space {
+  flex: 2;
+}
+
+.head-log {
+  flex: 1;
+  text-align: right;
+  padding-right: 3%;
+  margin-top: auto;
+  margin-bottom: auto;
+
+  display: flex;
+  gap: 1em;
+}
+
+.body {
+  flex-grow: 1;
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.body-top {
+  flex-grow: 1;
+  background-color: black;
+  color: white;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.body-top-text-first {
+  margin-top: 1.5em;
+  font-size: 2.5em;
+  font-family: "Montserrat ExtraBold", "Times New Roman";
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.body-top-text-second {
+  margin-top: 1em;
+  font-size: 1.2em;
+  font-family: "Montserrat SemiBold", "Times New Roman";
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.body-top-start {
+  margin-top: 3em;
+  font-size: 1.2em;
+  font-family: "Montserrat SemiBold", "Times New Roman";
+  margin-bottom: 4em;
+}
+
+.body-middle {
+  flex-grow: 1;
+  background-color: white;
+  color: black;
+  margin-top: auto;
+  margin-bottom: auto;
+
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.body-middle-block {
+  display: flex;
+  flex-grow: 1;
+  margin-top: 5em;
+
+  gap: 10em;
+}
+
+.body-middle-block-text {
+  text-align: left;
+  flex: 1;
+}
+
+.body-middle-block-photo {
+  flex: 0;
+  padding-top: 2em;
+  text-align: left;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.body-middle-link {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 3em;
+}
+
+.body-bottom {
+  flex-grow: 1;
+  background-color: white;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 4em;
+  padding-bottom: 3em;
+  text-align: center;
+
+  display: flex;
+  gap: 2em;
+}
+
+.body-bottom-side {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.body-bottom-center {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.footer {
+  min-height: 4vh;
+  background-color: black;
+
+  display: flex;
+}
+
+.foot-text {
+  flex: 1;
   color: white;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 0.9em;
+  font-family: "Montserrat Medium", "Times New Roman";
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-size: 2em;
+  font-family: "Montserrat SemiBold", "Times New Roman";
+  line-height: 1em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p {
+  font-family: "Montserrat Medium", "Times New Roman";
+}
+
+img {
+  object-fit: cover;
 }
