@@ -1,4 +1,3 @@
-
 .body {
     flex-grow: 1;
     background-color: white;
@@ -7,33 +6,33 @@
     flex-direction: column;
 }
 
-.body__top {
+.top {
     flex-grow: 1;
     background-color: black;
     color: white;
     text-align: center;
 }
 
-.body__top__text-first {
+.top__text1 {
     margin-top: 1.5em;
     font-size: 2.5em;
     font-family: "Montserrat ExtraBold", "Times New Roman";
 }
 
-.body__top__text-second {
+.top__text2 {
     margin-top: 1em;
     font-size: 1.2em;
     font-family: "Montserrat SemiBold", "Times New Roman";
 }
 
-.body__top__start {
+.top__start {
     margin-top: 3em;
     font-size: 1.2em;
     font-family: "Montserrat SemiBold", "Times New Roman";
     margin-bottom: 4em;
 }
 
-.body__middle {
+.middle {
     flex-grow: 1;
     background-color: white;
     color: black;
@@ -44,35 +43,43 @@
     flex-direction: column;
 }
 
-.body__middle__block {
+.middle__block {
     display: flex;
     flex-grow: 1;
     margin-top: 5em;
 
-    gap: 10em;
+    gap: 8em;
 }
 
-.body__middle__block__text {
+.middle__block__text {
+    margin-top: auto;
+    margin-bottom: auto;
     text-align: left;
     flex: 1;
 }
 
-.body__middle__block__photo {
-    flex: 0;
-    padding-top: 2em;
+.middle__block__photo {
+    flex: 0.8;
     text-align: left;
     margin-top: auto;
     margin-bottom: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
-.body__middle__link {
+.middle__block__photo img {
+    width: 100%;
+    height: 100%;
+}
+
+.middle__link {
     flex-grow: 1;
     text-align: center;
     font-size: 1.2em;
     margin-top: 3em;
 }
 
-.body__bottom {
+.bottom {
     flex-grow: 1;
     background-color: white;
     color: black;
@@ -86,12 +93,26 @@
     gap: 2em;
 }
 
-.body__bottom__side {
+.bottom__side {
     margin-top: auto;
     margin-bottom: auto;
+    width: 80%;
+    height: 80%;
 }
 
-.body__bottom__center {
+.bottom__side img {
+    width: 100%;
+    height: 100%;
+}
+
+.bottom__center {
     margin-top: auto;
     margin-bottom: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.bottom__center img {
+    width: 100%;
+    height: 100%;
 }

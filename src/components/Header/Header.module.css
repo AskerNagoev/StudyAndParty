@@ -8,7 +8,7 @@
     display: flex;
 }
 
-.header__nav {
+.nav {
     flex: 8;
     text-align: left;
     padding-left: 3%;
@@ -19,11 +19,11 @@
     gap: 1em;
 }
 
-.header__space {
+.space {
     flex: 2;
 }
 
-.header__log {
+.log {
     flex: 1;
     text-align: right;
     padding-right: 3%;
