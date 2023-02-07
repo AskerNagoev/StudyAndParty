@@ -1,8 +1,9 @@
+import styles from './Footer.module.css';
 const Footer = () => {
     return (
-        <div className='footer'>
+        <div className={styles.footer}>
             <div></div>
-            <div className='foot-text'>
+            <div className={styles.text}>
                 © 2023 ФГБОУ ВО "Пятигорский государственный университет"
             </div>
             <div></div>

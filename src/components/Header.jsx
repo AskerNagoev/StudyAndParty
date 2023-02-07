@@ -1,9 +1,9 @@
-import logoPSU from "./logo.png";
+import styles from './Header.module.css';
 
 const Header = () => {
     return (
-        <header className='header'>
-            <nav className='head-nav'>
+        <header className={styles.header}>
+            <nav className={styles.nav}>
                 <a>Главная</a>
                 <a>Развлечения</a>
                 <a>Творчество</a>
@@ -12,9 +12,9 @@ const Header = () => {
                 <a>Все</a>
             </nav>
 
-            <div className='head-space'></div>
+            <div className={styles.space}></div>
 
-            <div className='head-log'>
+            <div className={styles.log}>
                 <a>Войти</a>
                 <a>Зарегистрироваться</a>
             </div>

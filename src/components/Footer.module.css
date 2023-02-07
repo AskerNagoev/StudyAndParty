@@ -1,0 +1,16 @@
+.footer {
+    min-height: 4vh;
+    background-color: black;
+
+    display: flex;
+}
+
+.footer__text {
+    flex: 1;
+    color: white;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 0.9em;
+    font-family: "Montserrat Medium", "Times New Roman";
+}

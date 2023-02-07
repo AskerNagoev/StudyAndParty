@@ -1,28 +1,29 @@
 import React from "react";
-import middleblockfirst from './middle-block-photo.jpg';
-import middlebottomfirst from './middle-bottom-first.jpg'
-import middlebottomsecond from './middle-bottom-second.jpg'
-import middlebottomthird from './middle-bottom-third.jpg'
-import middlebottomfourth from './middle-bottom-fourth.jpg'
+import styles from './Body.module.css'
+import middleblock from './middle-block-photo.jpg';
+import middlebottom1 from './middle-bottom-first.jpg'
+import middlebottom2 from './middle-bottom-second.jpg'
+import middlebottom3 from './middle-bottom-third.jpg'
+import middlebottom4 from './middle-bottom-fourth.jpg'
 
 const Body = () => {
     return (
-        <div className='body'>
-            <div className='body-top'>
-                <div className='body-top-text-first'>
+        <div className={styles.body}>
+            <div className={styles.top}>
+                <div className={styles.top__text1}>
                     Хочешь сделать студенческую <br /> жизнь незабываемой?
                 </div>
-                <div className='body-top-text-second'>
+                <div className={styles.top__text2}>
                     Открой афишу мероприятий и выбери то, что тебе по душе!
                 </div>
-                <div className='body-top-start'>
+                <div className={styles.top__start}>
                     <a>Начать</a>
                 </div>
             </div>
-            <div className='body-middle'>
-                <div className='body-middle-block'>
+            <div className={styles.middle}>
+                <div className={styles.middle__block}>
                     <div></div>
-                    <div className='body-middle-block-text'>
+                    <div className={styles.middle__block__text}>
                         <div>
                             <h1>С нами ты не пропустишь <br /> ни одно мероприятие</h1>
                             <p>Наша платформа содержит мероприятия по <br />
@@ -35,27 +36,27 @@ const Body = () => {
                                 студенчество ярче.</p>
                         </div>
                     </div>
-                    <div className='body-middle-block-photo'>
-                        <img className='image-in-container' src={middleblockfirst} width='400em'></img>
+                    <div className={styles.middle__block__photo}>
+                        <img src={middleblock} alt="Фото с мероприятия"></img>
                     </div>
                     <div></div>
                 </div>
-                <div className='body-middle-link'>
+                <div className={styles.middle__link}>
                     Посмотреть мероприятия
                 </div>
             </div>
-            <div className='body-bottom'>
-                <div className='body-bottom-side'>
-                    <img src={middlebottomfirst} width='300em' ></img>
+            <div className={styles.bottom}>
+                <div className={styles.bottom__side}>
+                    <img src={middlebottom1} alt="Фото с мероприятия"></img>
                 </div>
-                <div className='body-bottom-center'>
-                    <img src={middlebottomsecond} width='350em'></img>
+                <div className={styles.bottom__center}>
+                    <img src={middlebottom2} alt="Фото с мероприятия"></img>
                 </div>
-                <div className='body-bottom-center'>
-                    <img src={middlebottomthird} width='350em'></img>
+                <div className={styles.bottom__center}>
+                    <img src={middlebottom3} alt="Фото с мероприятия"></img>
                 </div>
-                <div className='body-bottom-side'>
-                    <img src={middlebottomfourth} width='300em'></img>
+                <div className={styles.bottom__side}>
+                    <img src={middlebottom4} alt="Фото с мероприятия"></img>
                 </div>
             </div>
         </div>
