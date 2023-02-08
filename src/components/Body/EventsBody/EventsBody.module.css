@@ -1,0 +1,27 @@
+.body{
+    height: 88vh;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    gap: 10%;
+    padding: 5% 20%;
+}
+
+.top__search {
+    background-color: bisque;
+    width: 80%;
+    text-align: right;
+}
+
+.top__filters {
+    background-color: aqua;
+}
+
+.events {
+    flex-grow: 1;
+}
