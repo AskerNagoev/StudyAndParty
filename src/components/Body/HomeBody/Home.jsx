@@ -1,12 +1,12 @@
 import React from "react";
-import styles from './Body.module.css'
+import styles from './HomeBody.module.css'
 import middleblock from './middle-block-photo.jpg';
 import middlebottom1 from './middle-bottom-first.jpg'
 import middlebottom2 from './middle-bottom-second.jpg'
 import middlebottom3 from './middle-bottom-third.jpg'
 import middlebottom4 from './middle-bottom-fourth.jpg'
 
-const Body = () => {
+const HomeBody = () => {
     return (
         <div className={styles.body}>
             <div className={styles.top}>
@@ -62,4 +62,4 @@ const Body = () => {
         </div>
     )
 }
-export default Body;
+export default HomeBody;
