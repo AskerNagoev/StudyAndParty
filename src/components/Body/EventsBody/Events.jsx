@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './EventsBody.module.css';
+import styles from './Events.module.css';
 import Event from "./Event/Event";
 
-const EventsBody = () => {
+const Events = () => {
     return (
         <div>
             <div className={styles.top}>
@@ -31,4 +31,4 @@ const EventsBody = () => {
     )
 }
 
-export default EventsBody;
+export default Events;

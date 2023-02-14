@@ -30,6 +30,22 @@
     margin-top: auto;
     margin-bottom: auto;
 
+
     display: flex;
     gap: 1em;
+}
+
+.log a {
+    color: white;
+}
+
+a {
+    color: gainsboro;
+    text-decoration-line: none;
+}
+
+a.activeLink {
+    color: white;
+    border-bottom: solid;
+    padding-bottom: 0.7%;
 }

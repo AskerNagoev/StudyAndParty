@@ -1,9 +1,9 @@
 import React from "react";
-import styles from './ProfileBody.module.css'
+import styles from './Profile.module.css'
 import Event from "../EventsBody/Event/Event";
 import Ava from "./Ava.png"
 
-const ProfileBody = () => {
+const Profile = () => {
     return (
         <div className={styles.body}>
             <div className={styles.top}>
@@ -13,23 +13,29 @@ const ProfileBody = () => {
                             <img src={Ava} alt="Аватарка"></img>
                         </div>
                         <div className={styles.top__bio__info__text}>
-                            <div>594724</div>
-                            <div>Имя</div>
-                            <div>Фамилия</div>
-                            <div>ИРГЯИГТ</div>
-                            <div>Группа</div>
+                            <div>
+                                <div>594724</div>
+                            </div>
+                            <div>
+                                <div>Имя</div>
+                                <div>Фамилия</div>
+                            </div>
+                            <div>
+                                <div>ИНСТИТУТ</div>
+                                <div>ГРУППА</div>
+                            </div>
                         </div>
                     </div>
                     <div className={styles.top__bio__org}>
-                        Organisation
+                        <div>Организация</div>
+                    </div>
+                    <div className={styles.new}>
+                        Создать мероприятие
                     </div>
                 </div>
-                <div>
-                    Calendar
+                <div className={styles.top__calendar}>
+                    <div>Календарь тут</div>
                 </div>
-            </div>
-            <div className={styles.new}>
-                Создать мероприятие
             </div>
             <div >
                 <Event name='Языковая реальность в контексте межкультурного стратегического диалога-2022'
@@ -44,4 +50,4 @@ const ProfileBody = () => {
         </div>
     )
 }
-export default ProfileBody;
+export default Profile;

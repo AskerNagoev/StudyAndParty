@@ -12,25 +12,35 @@
     background-color: black;
     color: white;
     text-align: center;
+    min-height: 40vh;
 }
 
 .top__text1 {
-    margin-top: 1.5em;
-    font-size: 2.5em;
-    font-family: "Montserrat ExtraBold", "Times New Roman";
+    margin-top: 5%;
+    font-size: 250%;
+    font-family: "Montserrat ExtraBold", serif;
 }
 
 .top__text2 {
-    margin-top: 1em;
-    font-size: 1.2em;
-    font-family: "Montserrat SemiBold", "Times New Roman";
+    margin-top: 1.5%;
+    font-size: 120%;
+    font-family: "Montserrat SemiBold", serif;
 }
 
 .top__start {
-    margin-top: 3em;
-    font-size: 1.2em;
-    font-family: "Montserrat SemiBold", "Times New Roman";
-    margin-bottom: 4em;
+    margin-top: 3%;
+    font-size: 120%;
+    font-family: "Montserrat SemiBold", serif;
+    margin-bottom: 5%;
+}
+
+.top__start button {
+    background-color: blue;
+    color: white;
+    font-size: 100%;
+    padding: 10px 60px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .middle {
@@ -47,9 +57,9 @@
 .middle__block {
     display: flex;
     flex-grow: 1;
-    margin-top: 5em;
+    margin-top: 5%;
 
-    gap: 8em;
+    gap: 8%;
 }
 
 .middle__block__text {
@@ -64,8 +74,8 @@
     text-align: left;
     margin-top: auto;
     margin-bottom: auto;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .middle__block__photo img {
@@ -76,8 +86,18 @@
 .middle__link {
     flex-grow: 1;
     text-align: center;
-    font-size: 1.2em;
-    margin-top: 3em;
+    font-size: 120%;
+    margin-top: 3%;
+}
+
+.middle__link button {
+    background-color: lightgrey;
+    color: dimgrey;
+    font-size: 100%;
+    padding: 10px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-style: none;
 }
 
 .bottom {
@@ -86,12 +106,12 @@
     color: black;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 4em;
-    padding-bottom: 3em;
+    padding-top: 4%;
+    padding-bottom: 3%;
     text-align: center;
 
     display: flex;
-    gap: 2em;
+    gap: 2%;
 }
 
 .bottom__side {
@@ -117,3 +137,4 @@
     width: 100%;
     height: 100%;
 }
+

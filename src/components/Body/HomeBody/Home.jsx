@@ -1,12 +1,13 @@
 import React from "react";
-import styles from './HomeBody.module.css'
+import styles from './Home.module.css'
 import middleblock from './middle-block-photo.jpg';
 import middlebottom1 from './middle-bottom-first.jpg'
 import middlebottom2 from './middle-bottom-second.jpg'
 import middlebottom3 from './middle-bottom-third.jpg'
 import middlebottom4 from './middle-bottom-fourth.jpg'
+import {NavLink} from "react-router-dom";
 
-const HomeBody = () => {
+const Home = () => {
     return (
         <div className={styles.body}>
             <div className={styles.top}>
@@ -17,7 +18,7 @@ const HomeBody = () => {
                     Открой афишу мероприятий и выбери то, что тебе по душе!
                 </div>
                 <div className={styles.top__start}>
-                    <a>Начать</a>
+                    <NavLink to='/Events'><button>Начать</button></NavLink>
                 </div>
             </div>
             <div className={styles.middle}>
@@ -42,7 +43,7 @@ const HomeBody = () => {
                     <div></div>
                 </div>
                 <div className={styles.middle__link}>
-                    Посмотреть мероприятия
+                    <NavLink to='/Events'><button>Посмотреть мероприятия</button></NavLink>
                 </div>
             </div>
             <div className={styles.bottom}>
@@ -62,4 +63,4 @@ const HomeBody = () => {
         </div>
     )
 }
-export default HomeBody;
+export default Home;

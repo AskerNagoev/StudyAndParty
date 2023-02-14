@@ -11,7 +11,10 @@
     background-color: bisque;
     display: flex;
     gap: 10%;
-    margin: 5% 5%;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 40vh;
 }
 
 .top__bio {
@@ -23,6 +26,7 @@
 .top__bio__info {
     display: flex;
     gap: 3%;
+
 }
 
 .top__bio__info__photo {
@@ -40,17 +44,33 @@
 }
 
 .top__bio__info__text {
-    margin-bottom: auto;
-    margin-top: auto;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 15%;
+    font-family: "Montserrat Medium";
+    font-size: 120%;
 }
 
 .top__bio__org {
-    margin-top: 2%;
-    margin-left: 10%;
+    margin-top: 1%;
+    font-family: "Montserrat SemiBold";
+    font-size: 120%;
+    width: 30vh;
+    text-align: center;
+}
+
+.top__calendar {
+    background-color: coral;
+    width: 50%;
 }
 
 .new {
     background-color: aqua;
-    margin-bottom: 5%;
+    margin-top: 2%;
+    width: 30vh;
+    font-family: "Montserrat";
+    font-size: 100%;
     text-align: center;
 }
