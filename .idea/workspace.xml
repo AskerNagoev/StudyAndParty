@@ -5,33 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b0d50e5-fd95-4dbb-8832-677bfd722fc8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Creation/Creation.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Events.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Science/Science.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Sport/Sport.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Body/ProfileBody/Ava.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Body/ProfileBody/Profile.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Body/ProfileBody/Profile.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Account/Account.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Account/Account.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Account/Ava.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Body/ProfileBody/ProfileInfo/Organisation/Organisation.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Body/ProfileBody/ProfileInfo/Organisation/Organisation.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Body/ProfileBody/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Body/ProfileBody/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Body/EventsBody/Event/Event.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Event/Event.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Body/EventsBody/Event/Event.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Event/Event.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/EventsBody/EventsBody.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/EventsBody/EventsBody.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Events.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/HomeBody/HomeBody.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/HomeBody/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/HomeBody/HomeBody.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/HomeBody/Home.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Content.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Entertainment/Entertainment.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Profile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/HomeBody/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/HomeBody/Home.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/ProfileBody/Ava.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/ProfileBody/ProfileInfo/Ava.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/ProfileBody/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/ProfileBody/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/ProfileBody/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/ProfileBody/Profile.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +36,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2LEGmCwEl2B1qkqESpxiEiagzea" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -65,7 +53,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/React/Projects/study_party/src/components/Body/EventsBody",
+    "last_opened_file_path": "D:/React/Projects/study_party/src/components/Body/ProfileBody/ProfileInfo/Organisation",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,18 +64,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\React\Projects\study_party\src\components\Body\ProfileBody\ProfileInfo\Organisation" />
+      <recent name="D:\React\Projects\study_party\src\components\Body\ProfileBody\ProfileInfo" />
+      <recent name="D:\React\Projects\study_party\src\components\Body\ProfileBody\Organisation" />
       <recent name="D:\React\Projects\study_party\src\components\Body\EventsBody" />
       <recent name="D:\React\Projects\study_party\src\components\Body\EventsBody\Creation" />
-      <recent name="D:\React\Projects\study_party\src\components\Body\EventsBody\Entertainment" />
-      <recent name="D:\React\Projects\study_party\src\components\Header\Account" />
-      <recent name="D:\React\Projects\study_party\src\components\Body\ProfileBody" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\React\Projects\study_party\src\components\Body\ProfileBody\ProfileInfo" />
       <recent name="D:\React\Projects\study_party\src\components\Body\EventsBody\Event" />
       <recent name="D:\React\Projects\study_party\src\components\Body\EventsBody" />
       <recent name="D:\React\Projects\study_party\src\components\Body\Home" />
       <recent name="D:\React\Projects\study_party\src\components\Body" />
-      <recent name="D:\React\Projects\study_party\src\components\Footer" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -115,6 +103,10 @@
       <workItem from="1676229366345" duration="7584000" />
       <workItem from="1676320091530" duration="5920000" />
       <workItem from="1676384314258" duration="11960000" />
+      <workItem from="1676400853250" duration="6000" />
+      <workItem from="1676401004645" duration="38000" />
+      <workItem from="1676405427598" duration="609000" />
+      <workItem from="1676456061734" duration="9153000" />
     </task>
     <servers />
   </component>

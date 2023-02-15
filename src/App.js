@@ -15,7 +15,7 @@ const App = (props) => {
                 <Header/>
                 <div className='app-wrapper-body'>
                     <Routes>
-                        <Route path='/' element={<Home/>}/>
+                        <Route path='' element={<Home/>}/>
                         <Route path='/Home' element={<Home/>}/>
                         <Route path='/Entertainment' element={<Entertainment/>}/>
                         <Route path='/Creation' element={<Creation/>}/>

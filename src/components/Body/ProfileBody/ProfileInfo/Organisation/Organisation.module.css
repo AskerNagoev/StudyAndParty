@@ -1,0 +1,29 @@
+.org {
+    display: grid;
+    grid-template-columns: 30vh 30vh;
+}
+
+.org__name {
+    margin-top: 3%;
+    font-family: "Montserrat SemiBold", serif;
+    font-size: 120%;
+    width: 30vh;
+    text-align: center;
+}
+
+.new {
+    width: 30vh;
+    font-family: "Montserrat", serif;
+    font-size: 100%;
+    text-align: left;
+}
+
+.new button {
+    background-color: dodgerblue;
+    color: white;
+    font-size: 100%;
+    padding: 3% 7%;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}

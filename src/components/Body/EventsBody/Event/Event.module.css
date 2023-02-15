@@ -1,14 +1,15 @@
 .event {
     padding: 0 5%;
 
-    display: flex;
+    display: grid;
+    grid-template-columns: 30% 70%;
     gap: 3%;
     height: auto;
     margin-bottom: 3%;
 }
 
 .photo {
-    width: 40%;
+    width: auto;
     height: auto;
 }
 
@@ -31,17 +32,32 @@
 
 .info__buttons {
     display: flex;
-    gap: 70%;
-    font-family: "Montserrat Medium", "Times New Roman";
+    gap: 60%;
+    font-family: "Montserrat Medium", serif;
     margin-bottom: 1%;
+}
+
+.info__buttons button {
+    background-color: dodgerblue;
+    color: white;
+    font-size: 100%;
+    padding: 1% 3%;
+    border-radius: 5px;
+    cursor: pointer;
+    border-style: none;
+    margin-top: -2%;
 }
 
 h1 {
     font-size: 1.5em;
-    font-family: "Montserrat Medium", "Times New Roman";
+    font-family: "Montserrat Medium", serif;
     line-height: 1.2em;
 }
 
 p {
-    font-family: "Montserrat Medium", "Times New Roman";
+    font-family: "Montserrat Medium", serif;
+}
+
+.button {
+    color: dodgerblue;
 }

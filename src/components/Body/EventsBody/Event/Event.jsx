@@ -14,8 +14,8 @@ const Event = (props) => {
                     <p>{props.description}</p>
                 </div>
                 <div className={styles.info__buttons}>
-                    <div>Подробнее</div>
-                    <div>Участвовать</div>
+                    <div className={styles.button}>Подробнее</div>
+                    <button>Участвовать</button>
                 </div>
             </div>
         </div>

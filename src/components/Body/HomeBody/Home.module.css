@@ -35,11 +35,11 @@
 }
 
 .top__start button {
-    background-color: blue;
+    background-color: dodgerblue;
     color: white;
     font-size: 100%;
-    padding: 10px 60px;
-    border-radius: 5px;
+    padding: 1% 6%;
+    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -94,8 +94,8 @@
     background-color: lightgrey;
     color: dimgrey;
     font-size: 100%;
-    padding: 10px 40px;
-    border-radius: 5px;
+    padding: 1% 2%;
+    border-radius: 10px;
     cursor: pointer;
     border-style: none;
 }
