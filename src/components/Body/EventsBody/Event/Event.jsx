@@ -6,7 +6,7 @@ const Event = (props) => {
     return (
         <div className={styles.event}>
             <div className={styles.photo}>
-                <img src={Photo}></img>
+                <img src={Photo} alt='Фото'></img>
             </div>
             <div className={styles.info}>
                 <div className={styles.info__text}>

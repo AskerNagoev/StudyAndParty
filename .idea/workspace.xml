@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b0d50e5-fd95-4dbb-8832-677bfd722fc8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Body/ProfileBody/ProfileInfo/Organisation/Organisation.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Body/ProfileBody/ProfileInfo/Organisation/Organisation.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Body/ProfileBody/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Body/ProfileBody/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Body/EventsBody/Event/Event.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Event/Event.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Body/EventsBody/Event/Event.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Event/Event.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/HomeBody/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/HomeBody/Home.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/ProfileBody/Ava.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/ProfileBody/ProfileInfo/Ava.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/ProfileBody/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/ProfileBody/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/ProfileBody/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/ProfileBody/Profile.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/EventsBody/Events.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Events.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,21 +39,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/React/Projects/study_party/src/components/Body/ProfileBody/ProfileInfo/Organisation",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/React/Projects/study_party/src/components/Body/ProfileBody/ProfileInfo/Organisation&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\React\Projects\study_party\src\components\Body\ProfileBody\ProfileInfo\Organisation" />
@@ -107,6 +99,8 @@
       <workItem from="1676401004645" duration="38000" />
       <workItem from="1676405427598" duration="609000" />
       <workItem from="1676456061734" duration="9153000" />
+      <workItem from="1676469208926" duration="2021000" />
+      <workItem from="1676574668824" duration="3885000" />
     </task>
     <servers />
   </component>
