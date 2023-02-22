@@ -5,37 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b0d50e5-fd95-4dbb-8832-677bfd722fc8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Body/HomeBody/Bottom/Bottom.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Body/HomeBody/Bottom/Bottom.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Body/HomeBody/Middle/Middle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Body/HomeBody/Middle/Middle.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Body/HomeBody/Top/Top.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Body/HomeBody/Top/Top.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/EventsBody/Creation/Creation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Creation/Creation.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/EventsBody/Entertainment/Entertainment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Entertainment/Entertainment.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/EventsBody/Event/Event.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Events/Event/Event.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/EventsBody/Event/Event.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Events/Event/Event.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/EventsBody/Event/Photo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Events/Event/Photo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/EventsBody/Events.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Events/Events.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/EventsBody/Events.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Events/Events.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/EventsBody/Science/Science.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Science/Science.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/EventsBody/Sport/Sport.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Sport/Sport.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/HomeBody/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/HomeBody/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/HomeBody/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/HomeBody/Home.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/HomeBody/middle-block-photo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/HomeBody/Middle/middle-block-photo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/HomeBody/middle-bottom-first.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/HomeBody/Bottom/middle-bottom-first.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/HomeBody/middle-bottom-fourth.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/HomeBody/Bottom/middle-bottom-fourth.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/HomeBody/middle-bottom-second.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/HomeBody/Bottom/middle-bottom-second.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/HomeBody/middle-bottom-third.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/HomeBody/Bottom/middle-bottom-third.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/ProfileBody/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/ProfileBody/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/ProfileBody/ProfileInfo/Organisation/Organisation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/ProfileBody/ProfileInfo/Organisation/Organisation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/EventsBody/Events/Event/Event.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Events/Event/Event.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/EventsBody/Events/Events.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Events/Events.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/EventsBody/Events/Events.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Events/Events.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Body/ProfileBody/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/ProfileBody/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/ProfileBody/ProfileInfo/ProfileInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/ProfileBody/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Account/Account.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Account/Account.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,21 +41,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/React/Projects/study_party/src/components/Body/HomeBody/Bottom&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\React\Projects\study_party\src\components\Body\HomeBody\Bottom" />
@@ -131,11 +100,23 @@
       <workItem from="1676574668824" duration="3885000" />
       <workItem from="1676626609307" duration="8444000" />
       <workItem from="1676973320837" duration="1136000" />
+      <workItem from="1677087949092" duration="4159000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

@@ -9,14 +9,14 @@
 
 .top {
     display: flex;
-    gap: 10%;
-    padding: 5% 20%;
+    justify-content: center;
+    padding: 70px;
 }
 
 .top__search {
-    background-color: bisque;
-    width: 60%;
-    text-align: right;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .top__filters {
@@ -25,4 +25,46 @@
 
 .events {
     flex-grow: 1;
+}
+
+.search__input{
+    margin-right: 8px;
+    padding: 10px 20px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.search__button{
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 2px 15px;
+    margin-right: 40px;
+
+    cursor: pointer;
+}
+
+.search__select{
+    border-radius: 5px;
+    border: 1px solid dodgerblue;
+    padding: 5px;
+
+    color: dodgerblue;
+}
+
+.search__select:focus-visible{
+    outline:none;
+}
+
+.select__option{
+    color: black;
+}
+
+.empty_screen {
+    margin: 0 5%;
+    padding: 100px;
+    gap: 3%;
+    height: auto;
 }
