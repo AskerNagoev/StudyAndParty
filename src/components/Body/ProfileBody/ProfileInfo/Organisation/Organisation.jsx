@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "./Organisation.module.css";
 
-const Organisation = () => {
+const Organisation = (props) => {
     return (
         <div className={styles.org}>
             <div className={styles.org__name}>
-                <div>ППОС ПГУ</div>
+                <div>{props.name}</div>
             </div>
             <div className={styles.new}>
                 <button>Создать мероприятие</button>

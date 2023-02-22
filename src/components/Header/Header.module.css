@@ -2,8 +2,8 @@
     min-height: 8vh;
     background-color: black;
     color: white;
-    font-size: 1.1em;
-    font-family: "Montserrat SemiBold", "Times New Roman";
+    font-size: 110%;
+    font-family: "Montserrat SemiBold", serif;
 
     display: flex;
 }
@@ -16,7 +16,7 @@
     margin-bottom: auto;
 
     display: flex;
-    gap: 1em;
+    gap: 1%;
 }
 
 .space {
@@ -29,10 +29,6 @@
     padding-right: 3%;
     margin-top: auto;
     margin-bottom: auto;
-
-
-    display: flex;
-    gap: 1em;
 }
 
 .log a {

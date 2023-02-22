@@ -1,0 +1,35 @@
+.top {
+    flex-grow: 1;
+    background-color: black;
+    color: white;
+    text-align: center;
+    min-height: 40vh;
+}
+
+.text1 {
+    margin-top: 5%;
+    font-size: 250%;
+    font-family: "Montserrat ExtraBold", serif;
+}
+
+.text2 {
+    margin-top: 1.5%;
+    font-size: 120%;
+    font-family: "Montserrat SemiBold", serif;
+}
+
+.start {
+    margin-top: 3%;
+    font-size: 120%;
+    font-family: "Montserrat SemiBold", serif;
+    margin-bottom: 5%;
+}
+
+.start button {
+    background-color: dodgerblue;
+    color: white;
+    font-size: 100%;
+    padding: 1% 6%;
+    border-radius: 10px;
+    cursor: pointer;
+}

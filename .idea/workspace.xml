@@ -5,10 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b0d50e5-fd95-4dbb-8832-677bfd722fc8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Body/HomeBody/Bottom/Bottom.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Body/HomeBody/Bottom/Bottom.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Body/HomeBody/Middle/Middle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Body/HomeBody/Middle/Middle.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Body/HomeBody/Top/Top.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Body/HomeBody/Top/Top.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/EventsBody/Event/Event.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Event/Event.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/EventsBody/Event/Event.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Event/Event.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/EventsBody/Events.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Events.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/EventsBody/Creation/Creation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Creation/Creation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/EventsBody/Entertainment/Entertainment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Entertainment/Entertainment.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/EventsBody/Event/Event.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Events/Event/Event.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/EventsBody/Event/Event.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Events/Event/Event.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/EventsBody/Event/Photo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Events/Event/Photo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/EventsBody/Events.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Events/Events.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/EventsBody/Events.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Events/Events.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/EventsBody/Science/Science.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Science/Science.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/EventsBody/Sport/Sport.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/EventsBody/Sport/Sport.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/HomeBody/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/HomeBody/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/HomeBody/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/HomeBody/Home.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/HomeBody/middle-block-photo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/HomeBody/Middle/middle-block-photo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/HomeBody/middle-bottom-first.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/HomeBody/Bottom/middle-bottom-first.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/HomeBody/middle-bottom-fourth.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/HomeBody/Bottom/middle-bottom-fourth.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/HomeBody/middle-bottom-second.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/HomeBody/Bottom/middle-bottom-second.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/HomeBody/middle-bottom-third.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/HomeBody/Bottom/middle-bottom-third.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/ProfileBody/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/ProfileBody/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/ProfileBody/ProfileInfo/Organisation/Organisation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/ProfileBody/ProfileInfo/Organisation/Organisation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/ProfileBody/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/ProfileBody/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/ProfileBody/ProfileInfo/ProfileInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/ProfileBody/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Account/Account.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Account/Account.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +73,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/React/Projects/study_party/src/components/Body/ProfileBody/ProfileInfo/Organisation&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/React/Projects/study_party/src/components/Body/HomeBody/Bottom&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -56,18 +84,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\React\Projects\study_party\src\components\Body\HomeBody\Bottom" />
+      <recent name="D:\React\Projects\study_party\src\components\Body\HomeBody\Middle" />
+      <recent name="D:\React\Projects\study_party\src\components\Body\HomeBody\Top" />
+      <recent name="D:\React\Projects\study_party\src\components\Header\Navigation" />
       <recent name="D:\React\Projects\study_party\src\components\Body\ProfileBody\ProfileInfo\Organisation" />
-      <recent name="D:\React\Projects\study_party\src\components\Body\ProfileBody\ProfileInfo" />
-      <recent name="D:\React\Projects\study_party\src\components\Body\ProfileBody\Organisation" />
-      <recent name="D:\React\Projects\study_party\src\components\Body\EventsBody" />
-      <recent name="D:\React\Projects\study_party\src\components\Body\EventsBody\Creation" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\React\Projects\study_party\src\components\Body\EventsBody\Events" />
+      <recent name="D:\React\Projects\study_party\src\components\Body\HomeBody\Bottom" />
+      <recent name="D:\React\Projects\study_party\src\components\Body\HomeBody\Middle" />
       <recent name="D:\React\Projects\study_party\src\components\Body\ProfileBody\ProfileInfo" />
       <recent name="D:\React\Projects\study_party\src\components\Body\EventsBody\Event" />
-      <recent name="D:\React\Projects\study_party\src\components\Body\EventsBody" />
-      <recent name="D:\React\Projects\study_party\src\components\Body\Home" />
-      <recent name="D:\React\Projects\study_party\src\components\Body" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -101,6 +129,8 @@
       <workItem from="1676456061734" duration="9153000" />
       <workItem from="1676469208926" duration="2021000" />
       <workItem from="1676574668824" duration="3885000" />
+      <workItem from="1676626609307" duration="8444000" />
+      <workItem from="1676973320837" duration="1136000" />
     </task>
     <servers />
   </component>

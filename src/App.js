@@ -1,7 +1,7 @@
 import './App.css';
 import Header from "./components/Header/Header";
 import Home from "./components/Body/HomeBody/Home";
-import Events from "./components/Body/EventsBody/Events";
+import Events from "./components/Body/EventsBody/Events/Events";
 import Profile from "./components/Body/ProfileBody/Profile"
 import Footer from "./components/Footer/Footer";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
@@ -17,12 +17,12 @@ const App = (props) => {
                     <Routes>
                         <Route path='' element={<Home/>}/>
                         <Route path='/Home' element={<Home/>}/>
-                        <Route path='/Entertainment' element={<Entertainment/>}/>
-                        <Route path='/Creation' element={<Creation/>}/>
-                        <Route path='/Science' element={<Events/>}/>
-                        <Route path='/Sport' element={<Events/>}/>
-                        <Route path='/Events' element={<Events/>}/>
-                        <Route path='/Profile' element={<Profile/>}/>
+                        <Route path='/Entertainment' element={<Entertainment events={props.events}/>}/>
+                        <Route path='/Creation' element={<Creation events={props.events}/>}/>
+                        <Route path='/Science' element={<Events events={props.events}/>}/>
+                        <Route path='/Sport' element={<Events events={props.events}/>}/>
+                        <Route path='/Events' element={<Events events={props.events}/>}/>
+                        <Route path='/Profile' element={<Profile name='Аскер'/>}/>
                     </Routes>
                 </div>
                 <Footer/>

@@ -8,32 +8,33 @@
     height: 40vh;
 }
 
-.top__bio {
+.bio {
     display: flex;
     flex-direction: column;
     width: 60%;
 }
 
-.top__bio__info {
-    display: flex;
+.bio__info {
+    display: grid;
     gap: 3%;
+    grid-template-columns: 30vh 40vh;
 
 }
 
-.top__bio__info__photo {
+.bio__info__photo {
     height: 30vh;
     width: 30vh;
     display:flex;
 }
 
-.top__bio__info__photo img {
+.bio__info__photo img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
 }
 
-.top__bio__info__text {
-    margin-top: 7%;
+.bio__info__text {
+    margin-top: 12%;
     margin-bottom: 5%;
     display: flex;
     flex-direction: column;
@@ -42,7 +43,12 @@
     font-size: 120%;
 }
 
-.top__calendar {
+.bio__info__text2 {
+    font-family: "Montserrat SemiBold", serif;
+    font-size: 120%;
+}
+
+.calendar {
     background-color: dodgerblue;
     height: 35vh;
 }

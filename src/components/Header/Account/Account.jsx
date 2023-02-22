@@ -3,18 +3,18 @@ import React from "react";
 import {NavLink} from "react-router-dom";
 import Ava from './Ava.png'
 
-const Account = () => {
+const Account = (props) => {
     return (
-        <account>
+        <div className={styles.account}>
 {/*            <div className={styles.log}>
                 <a>Войти</a>
                 <a>Зарегистрироваться</a>
             </div>*/}
             <div className={styles.name}>
-                <NavLink to='/Profile'>Name Surname</NavLink>
+                <NavLink to='/Profile'>{props.name} {props.surname}</NavLink>
                 <NavLink to='/Profile'><img src={Ava} alt="Аватарка"></img></NavLink>
             </div>
-        </account>
+        </div>
     )
 }
 export default Account;

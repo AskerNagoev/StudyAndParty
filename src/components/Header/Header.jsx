@@ -18,7 +18,7 @@ const Header = () => {
             <div className={styles.space}></div>
 
             <div className={styles.log}>
-               <Account/>
+               <Account name='Аскер' surname='Нагоев'/>
             </div>
         </header>
     )

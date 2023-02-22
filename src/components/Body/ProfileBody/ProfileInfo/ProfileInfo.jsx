@@ -3,31 +3,31 @@ import Ava from "./Ava.png";
 import styles from "./ProfileInfo.module.css";
 import Organisation from "./Organisation/Organisation";
 
-const ProfileInfo = () => {
+const ProfileInfo = (props) => {
     return (
         <div className={styles.top}>
-            <div className={styles.top__bio}>
-                <div className={styles.top__bio__info}>
-                    <div className={styles.top__bio__info__photo}>
+            <div className={styles.bio}>
+                <div className={styles.bio__info}>
+                    <div className={styles.bio__info__photo}>
                         <img src={Ava} alt="Аватарка"></img>
                     </div>
-                    <div className={styles.top__bio__info__text}>
+                    <div className={styles.bio__info__text}>
                         <div>
-                            <div>594724</div>
+                            <div>{props.id}</div>
+                        </div>
+                        <div className={styles.bio__info__text2}>
+                            <div>{props.name}</div>
+                            <div>{props.surname}</div>
                         </div>
                         <div>
-                            <div>Имя</div>
-                            <div>Фамилия</div>
-                        </div>
-                        <div>
-                            <div>ИНСТИТУТ</div>
-                            <div>ГРУППА</div>
+                            <div>{props.institute}</div>
+                            <div>{props.group}</div>
                         </div>
                     </div>
                 </div>
-                <Organisation/>
+                <Organisation name='ППОС ПГУ'/>
             </div>
-            <div className={styles.top__calendar}>
+            <div className={styles.calendar}>
                 <div>Календарь тут</div>
             </div>
         </div>
