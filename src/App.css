@@ -12,10 +12,10 @@
 
 h1 {
   font-size: 2em;
-  font-family: "Montserrat Medium", "Times New Roman";
+  font-family: "Montserrat Medium", serif;
   line-height: 1em;
 }
 
 p {
-  font-family: "Montserrat Medium", "Times New Roman";
+  font-family: "Montserrat Medium", serif;
 }

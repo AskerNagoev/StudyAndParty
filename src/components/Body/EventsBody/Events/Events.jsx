@@ -6,10 +6,10 @@ import Event from "./Event/Event";
 const  institutes = [
     {label: "Все", value: 'Все'},
     {label: 'ВШУ', value: 'ВШУ'},
-    {label: 'ИРГЯиГТ', value: 'ИРГЯиГТ'},
+    {label: 'ИРГЯИГТ', value: 'ИРГЯИГТ'},
     {label: 'ИМО', value: 'ИМО'},
-    {label: 'ИПРиМ', value: 'ИПРиМ'},
-    {label: 'ВШДиА', value: 'ВШДиА'},
+    {label: 'ИПРИМ', value: 'ИПРИМ'},
+    {label: 'ВШДИА', value: 'ВШДИА'},
     {label: 'ЮИ', value: 'ЮИ'},
     {label: 'ИИЯМТ', value: 'ИИЯМТ'},
 ]
@@ -36,7 +36,7 @@ const Events = (props) => {
             </div>
             <div className={styles.events}>
                 {events.length > 0 ? events.map(event =>  <Event key={event.id} name={event.name} description={event.description}/>) :
-                    <div className={styles.empty_screen}>Извините, но мероприятия от {filter} еще не были добавлены в список</div>
+                    <div className={styles.empty_screen}>Извините, но мероприятий от {filter} еще не существует!</div>
                 }
             </div>
         </div>

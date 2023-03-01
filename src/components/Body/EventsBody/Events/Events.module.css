@@ -28,28 +28,32 @@
 }
 
 .search__input{
-    margin-right: 8px;
-    padding: 10px 20px;
-    width: 300px;
+    font-family: "Montserrat SemiBold", serif;
+    margin-right: 1%;
+    padding: 1%;
+    width: 30%;
     border-radius: 5px;
     border: 1px solid grey;
 }
 
 .search__button{
+    font-family: "Montserrat SemiBold", serif;
     background-color: dodgerblue;
     border: none;
     color: white;
     border-radius: 5px;
-    padding: 2px 15px;
-    margin-right: 40px;
+    padding: 1%;
+    margin-right: 4%;
+    width: 6%;
 
     cursor: pointer;
 }
 
 .search__select{
+    font-family: "Montserrat SemiBold", serif;
     border-radius: 5px;
     border: 1px solid dodgerblue;
-    padding: 5px;
+    padding: 1%;
 
     color: dodgerblue;
 }
@@ -63,8 +67,10 @@
 }
 
 .empty_screen {
+    font-family: "Montserrat SemiBold", serif;
+    text-align: center;
     margin: 0 5%;
-    padding: 100px;
+    padding: 10%;
     gap: 3%;
     height: auto;
 }
